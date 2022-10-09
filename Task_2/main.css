@@ -1,0 +1,396 @@
+body {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.42;
+  background: #17191C;
+  -webkit-font-smoothing: antiliased; 
+  -moz-oxx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+* {
+box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+
+.container {
+  margin: 0 auto;
+  width: 1362;
+}
+
+
+.header {
+  height: 27px;
+  position: relative; 
+  margin-bottom: 150px;
+}
+
+.logo {
+  display: block;
+  position: absolute;
+  width: 150px;
+  top: 11px;
+  left: 0;
+}
+
+.menu {
+  position: absolute;
+  top: 34px;
+  left: 250px;
+}
+
+.contacts {
+  position: absolute;
+  top: 34px;
+  right: 0px;
+}
+
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+
+.menu__link {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.contacts {
+  font-style: normal;
+  text-align: right;
+  width: 200px;
+}
+
+.contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+  margin-bottom: 4px;
+  color:#FFFFFF;
+}
+
+.contacts__dropdown-title {
+ font-size: 13px;
+ text-decoration: underline; 
+}
+
+.hero__text-section {
+  width: 400px;
+  margin-bottom: 193px;
+}
+
+.hero__title {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1.1;
+  margin-bottom: 18px;
+}
+
+.hero__subtitle {
+  font-size: 18px;
+  margin-bottom: 80px;
+}
+
+.btn_purple {
+  background: #8f00ff;;
+  border-radius: 5px;
+  padding: 18px 40px;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+}
+
+.new {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 300px;
+}
+
+.section__title {
+  font-size: 36px;
+  margin-bottom: 51px;
+}
+
+.new-quizes {
+  margin-bottom: 127px;
+}
+
+.new-quizes__item {
+  height: 480px;
+  width: 390px;
+  background:#FFFFFF;
+  border-radius: 0px, 0px, 5px, 5px;
+  display: inline-block;
+  margin-right: 27px;
+  margin-bottom: 20px;
+}
+
+.new-quizes__item: last-child {
+  margin-right: 0;
+}
+
+.new-quizes__content {
+  padding: 26px 24px;
+  color:#17191C;
+
+}
+.quiz-title {
+  font-size: 24px;
+  margin-bottom: 23px;
+}
+
+.info-quiz {
+  display: inline-block;
+  vertical-align: top;
+  width: 60px;
+  color: #666666;
+  margin-bottom: 26,5px;
+}
+
+.info__minutes {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.info__questions {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.description {
+  color: #666666;
+  margin-bottom: 30px;
+}
+
+.btn_white {
+  background:#FFFFFF;
+  color: #8F00FF;
+  border: 2px solid #8F00FF;
+  border-radius: 5px;
+  padding: 18px 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.previous-games__all {
+  margin-bottom: 10px;
+}
+
+.previous-games__item {
+  display: inline-block;
+  position: relative;
+  margin-right: 14px;
+  width: 598px;
+  height: 399px;
+  vertical-align: top;
+}
+
+.previous-games__cover {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.previous-games-content__item {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  min-height: 140px;
+}
+
+.games__date {
+ font-size: 14px;
+ margin-bottom: 12px;
+}
+
+.games__name {
+ font-size: 24px;
+ margin-bottom: 1px;
+}
+
+.games__info {
+ font-size: 16px;
+}
+
+.pager {
+  text-align: center;
+  margin-bottom: 132px;
+}
+
+.pager__display {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 25px;
+}
+
+.pager__list {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pager__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pager__link {
+  display: block;
+  color:#FFFFFF;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.pager__item--active .pager__link {
+  background: #8F00FF;
+  line-height: 32px;
+}
+
+.about:before {
+  content: "";
+  display: inline-block;
+  vertical-align: block;
+  width: 489px;
+  height: 505px;
+  background: url("/ about.png") center center / cover no-repeat; 
+}
+
+.about {
+  margin-bottom: 53px;
+}
+
+.about_description {
+  display: inline-block;
+  vertical-align: block;
+  padding: 40px 60px;
+  width: 785px;
+  height: 455px;
+  margin-left: -180px;
+  background: linear-gradient(71.43deg, #8F00FF 0%, #148CFF 100%), #212121;
+}
+
+.about__title {
+  font-size: 36px;
+  margin-bottom: 37px;
+}
+
+.about__desc-text {
+  font-size: 16px;
+  margin-bottom: 80px;
+}
+
+.btn_transparent {
+  background: transparent;
+  color: #FFFFFF;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 18px 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.footer {
+  min-height: 146px;
+  position: relative;
+}
+
+.social-media-list {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.social-media-item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.social-media-item: :last-child {
+  margin-right: 0px;
+}
+
+.social-link {
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+}
+
+.social-media-item-icon-telegram .social-link {
+  background-image: url(/icons/telegram.png);
+}
+
+.social-media-item-icon-telegram .social-link:hover {
+  background-image: url(/icons/telegram-hover.png);
+}
+
+.social-media-item-icon-vk .social-link {
+  background-image: url(/icons/vk.png);
+}
+
+.social-media-item-icon-vk .social-link:hover {
+  background-image: url(/icons/vk-hover.png);
+}
+
+.social-media-item-icon-facebook .social-link {
+  background-image: url(/icons/fb.png);
+}
+
+.social-media-item-icon-facebook .social-link:hover {
+  background-image: url(/icons/fb-hover.png);
+}
+
+.social-media-item-icon-instagram .social-link {
+  background-image: url(/icons/insta.png);
+}
+
+.social-media-item-icon-instagram .social-link:hover {
+  background-image: url(/icons/insta-hover.png);
+}
+
+.main-page-wrapper {
+  background: url(/pictures_background/back1.png) center top no-repeat, url(/pictures_background/back2.png) right bottom no-repeat;
+}
+
+.info_telephone {
+  position: absolute;
+  top: 34px;
+  right: 10px;
+}
+
+.free_call {
+  font-size: 11px;
+  color: #9A9A9A;
+}
